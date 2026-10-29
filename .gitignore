@@ -1,3 +1,4 @@
+
 # Maven build files
 **/target/
 **/*.class
@@ -14,3 +15,12 @@
 # OS and system files
 .DS_Store
 *.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration and credentials
+application-local.properties
+application-secret.properties
